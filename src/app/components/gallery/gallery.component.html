@@ -1,0 +1,12 @@
+<div id="container">
+  <div class="row" *ngFor="let item of gallery; let i = index">
+    <div class="header">
+      <img [src]="item.img" />
+    </div>
+    <div class="content" [ngClass]="i % 2 != 0 ? 'items' : ''">
+      <span>{{ item.title }}</span>
+      <p>{{ item.abstract }}</p>
+      <span>{{ item.date }}</span>
+    </div>
+  </div>
+</div>

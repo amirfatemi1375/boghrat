@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'iran_sans';
+    src: url('/assets/fonts/iran-sans/IRANSansWeb(FaNum).eot'), /* IE9 Compat Modes */
+      url('/assets/fonts/iran-sans/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/assets/fonts/iran-sans/IRANSansWeb(FaNum).woff') format('woff'), /* Pretty Modern Browsers */
+         url('/assets/fonts/iran-sans/IRANSansWeb(FaNum).ttf')  format('truetype'); 
+         font-weight: normal;
+font-style: normal;/* Safari, Android, iOS */
+  }
+ 
+*{
+    direction: rtl;
+    font-family: 'iran_sans';
+
+}
